@@ -107,3 +107,46 @@ async function authentication() {
     }
 }
 authentication();
+
+a();
+//function statement = defining a function
+// syntax:
+// function functionName(parameters) {}
+function a(){
+    console.log("This is a function statement");
+}
+
+// function expression = assigning a function to a variable
+let b = function() {
+    console.log("This is a function expression");
+}
+
+//function declaration = defining a function with a name
+//annonymous function = a function without a name
+// function(){
+//     console.log("This is an anonymous function");
+// }
+
+//named function expression = assigning a function to a variable with a name
+function c() {
+    console.log("This is a named function expression");
+}
+
+//arrow function = a shorter syntax for writing functions
+ d = () => {
+    console.log("This is an arrow function");
+}
+
+//annonymous arrow function = an arrow function without a name
+() => {
+    console.log("This is an arrow function");
+}
+
+//fetch function = a function that retrieves data from a server
+fetch("").then(response =>{
+}).then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
