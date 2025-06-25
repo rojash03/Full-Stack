@@ -142,3 +142,5 @@ for (let stud in student) {
 let classaverage = classtotalmarks / classstudentnumber;
 console.log("Class average score: " + classaverage);
 console.log("Class total marks: " + classtotalmarks);
+
+// day 3 
